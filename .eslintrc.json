@@ -1,4 +1,17 @@
-{"env": {
-     "jest": true
+{
+    "extends": "airbnb-base",
+    "env": {
+       "es6": true,
+       "browser": true,
+       "jest": true
+    },
+    "rules": {
+      "no-nested-ternary": "off",
+      "no-confusing-arrow":"off",
+      "no-restricted-syntax": [
+        "error",
+        "LabeledStatement",
+        "WithStatement"
+      ]
     }
-}
+  }
