@@ -1,0 +1,29 @@
+{
+  "name": "netology-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankevich/netology-tests.git"
+  },
+  "author": "ankevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ankevich/netology-tests/issues"
+  },
+  "homepage": "https://github.com/ankevich/netology-tests#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "babel-jest": "^28.1.3",
+    "jest": "^28.1.3"
+  },
+  "dependencies": {
+    "core-js": "^3.23.4"
+  }
+}
